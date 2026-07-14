@@ -75,6 +75,28 @@ Do not delete any of the above code. */
   text-align: center;
   border-radius: 10px;
 }
+
+/* styling for C2 side-by-side view on desktop */
+.layout-wrapper{
+display: flex;
+gap: 20px;
+}
+
+.main-content{
+  background-color: #3498db;
+  padding: 20px;
+  color:white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+
+.sidebar{
+  background-color: aqua;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
 /* styling for tablets  */
 @media screen and (max-width: 991px){
   .light-box{
